@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from csv import reader, Error as CsvError
-from sys import exit
-from sys import argv
-from csv import writer
+from csv import reader, writer, Error as CsvError
+from sys import exit, argv
 
 Sell_L, Buy_L = [], []  # lists of tuples (num, volume, price)
 Sell_M, Buy_M = [], []  # list of tuples (num, volume)
